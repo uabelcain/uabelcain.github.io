@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebSite</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="whatsapp.css">
+    <link rel="shortcut icon" href="./assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap"
+          rel="stylesheet">
+</head>
+<body>
+    <header class="encabezado">
+        <nav class="navegacion">
+            <a class="navegacion_enlance" href="#presentacion">
+                <h2 class="navegacion_titulo">Introducción</h2>
+            </a>
+            <ul class="enlaces">
+                <li class="enlaces__item">
+                    <a class="enlaces__enlace" href="#presentacion">Inicio</a>
+                </li>
+                <li class="enlaces__item">
+                    <a class="enlaces__enlace" href="#sobre-mi">Sobre mi</a>
+                </li>
+                <li class="enlaces__item">
+                    <a class="enlaces__enlace" href="#proyectos">Proyectos</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="principal">
+        <section class="presentacion" id="presentacion">
+            <div class="presentacion__contenedor_info">
+                <h1 class="presentacion__titulo">Desarrollador Web</h1>
+                <p class="presentacion__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="presentacion__contenedor_botones">
+                <a href="sobre-mi" class="boton" role="button">Sobre mi</a>
+                <a href="./assets/docs/cv.pdf" target="_blank" class="boton boton_oscuro" role="button">Descargar CV</a>
+            </div>
+        </section>
+        <article class="articulo sobre_mi" id="sobre_mi">
+            <h2 class="articulo_titulo">Un poco sobre mi</h2>
+            <div class="articulo__contenedor_descripciones">
+                <section class="seccion_descripcion">
+                    <div class="seccion_descripcion__porta_retrato">
+                        <img 
+                            class="seccion_descripcion__imagen"
+                            src="./desarrollo.trabajando.jpg"
+                            alt="foto trabajando en la oficina"
+                            title="trabajando en la oficina">
+                    </div>
+                    <div class="seccion_descripcion__info scroll scroll_gris" aria-label="descripcion personal">
+                          <h3 class="seccion_descripcion__titulo" id="mi_historia_titulo">Mi historia</h3>
+                            <p class="seccion_descripcion__parrafo" aria-label="Detalles de mi historia" aria-describedby="mi_historia_titulo">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Molestiae dolorem quasi atque deserunt odio, minima saepe
+                                delectus nemo praesentium sapiente labore excepturi quos
+                                repellat non, officiis, ea vero commodi reiciendis.
+                            </p>
+                            <p class="seccion_descripcion__parrafo" aria-label="Detalles de mi historia" aria-describedby="mi_historia_titulo">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Molestiae dolorem quasi atque deserunt odio, minima saepe
+                                delectus nemo praesentium sapiente labore excepturi quos
+                                repellat non, officiis, ea vero commodi reiciendis.
+                            </p>
+                            <p class="seccion_descripcion__parrafo" aria-label="Detalles de mi historia" aria-describedby="mi_historia_titulo">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Molestiae dolorem quasi atque deserunt odio, minima saepe
+                                delectus nemo praesentium sapiente labore excepturi quos
+                                repellat non, officiis, ea vero commodi reiciendis.
+                            </p>
+                            <p class="seccion_descripcion__parrafo" aria-label="Detalles de mi historia" aria-describedby="mi_historia_titulo">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Molestiae dolorem quasi atque deserunt odio, minima saepe
+                                delectus nemo praesentium sapiente labore excepturi quos
+                                repellat non, officiis, ea vero commodi reiciendis. Lorem ipsum
+                                dolor sit, amet consectetur adipisicing elit. Molestiae dolorem
+                                quasi atque deserunt odio, minima saepe delectus nemo
+                                praesentium sapiente labore excepturi quos repellat non,
+                                officiis, ea vero commodi reiciendis. Lorem ipsum dolor sit,
+                                amet consectetur adipisicing elit. Molestiae dolorem quasi atque
+                                deserunt odio, minima saepe delectus nemo praesentium sapiente
+                                labore excepturi quos repellat non, officiis, ea vero commodi
+                                reiciendis. Lorem ipsum dolor sit, amet consectetur adipisicing
+                                elit. Molestiae dolorem quasi atque deserunt odio, minima saepe
+                                delectus nemo praesentium sapiente labore excepturi quos
+                                repellat non, officiis, ea vero commodi reiciendis.
+                            </p>
+                        </div>
+                </section>
+                <section class="seccion_descripcion">
+                    <div class="seccion_descripcion__info scroll scroll_gris" aria-label="descripcion personal">
+                        <h3 class="seccion_descripcion__titulo" id="mis_hobbies_titulo">Mis hobbies</h3>
+                            <p class="seccion_descripcion__parrafo" aria-label="Detalles de mis hobbies" aria-describedby="mis_hobbies_titulo">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Molestiae dolorem quasi atque deserunt odio, minima saepe
+                                delectus nemo praesentium sapiente labore excepturi quos
+                                repellat non, officiis, ea vero commodi reiciendis.
+                            </p>
+                            <p class="seccion_descripcion__parrafo" aria-label="Detalles de mis hobbies" aria-describedby="mis_hobbies_titulo">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Molestiae dolorem quasi atque deserunt odio, minima saepe
+                                delectus nemo praesentium sapiente labore excepturi quos
+                                repellat non, officiis, ea vero commodi reiciendis. Lorem ipsum
+                                dolor sit, amet consectetur adipisicing elit. Molestiae dolorem
+                                quasi atque deserunt odio, minima saepe delectus nemo
+                                praesentium sapiente labore excepturi quos repellat non,
+                                officiis, ea vero commodi reiciendis. Lorem ipsum dolor sit,
+                                amet consectetur adipisicing elit. Molestiae dolorem quasi atque
+                                deserunt odio, minima saepe delectus nemo praesentium sapiente
+                                labore excepturi quos repellat non, officiis, ea vero commodi
+                                reiciendis.
+                            </p>
+                            <p class="seccion_descripcion__parrafo" aria-label="Detalles de mis hobbies" aria-describedby="mis_hobbies_titulo">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Molestiae dolorem quasi atque deserunt odio, minima saepe
+                                delectus nemo praesentium sapiente labore excepturi quos
+                                repellat non, officiis, ea vero commodi reiciendis.
+                            </p>
+                    </div>
+                    <div class="seccion_descripcion__porta_retrato">
+                        <img class="seccion_descripcion__imagen seccion_descripcion__imagen_variante" 
+                             src="./tennis.jpeg"
+                             alt="foto mientras me encontraba en una reunion de trabajo"
+                             title="selfie en una reunion"/>
+                    </div>
+                </section>
+            </div>
+        </article>
+        <article class="articulo proyectos" id="proyectos">
+            <h2 class="articulo__titulo">Mis proyectos</h2>
+                <div class="contenedor_tarjetas_grid">
+                    <article class="tarjeta" aria-label="presentacion de proyecto personal">
+                        <img class="tarjeta__imagen"
+                             src="./f1senna.jpg"
+                             alt="imagen del proyecto"
+                             title="proyecto 1"/>
+                                <div class="tarjeta__contenido">
+                                    <h3 class="tarjeta__titulo" id="titulo_proyecto_1">Senna</h3>
+                                        <span class="tarjeta__divisor"></span>
+                                            <p class="tarjeta__parrafo scroll scroll_fino"
+                                               aria-label="descripcion de proyecto personal"
+                                               aria-describedby="titulo_proyecto_1">
+                                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                                Inventore necessitatibus doloribus adipisci dolorum cum et
+                                                quisquam dicta veniam accusamus dignissimos. Placeat eligendi
+                                                nihil voluptates eos enim aperiam porro architecto et?
+                                            </p>
+                                            <a href="#" class="boton boton_oscuro" target="_blank">Ver proyecto</a>
+                                </div>
+        </article>
+        <article class="tarjeta" aria-label="presentacion de proyecto personal">
+            <img class="tarjeta__imagen"
+                 src="./ecommerce.jpeg"
+                 alt="imagen del proyecto"
+                 title="proyecto 2"/>
+                    <div class="tarjeta__contenido">
+                        <h3 class="tarjeta__titulo" id="titulo_proyecto_2">e-Commerce</h3>
+                            <span class="tarjeta__divisor"></span>
+                                <p class="tarjeta__parrafo scroll scroll_fino scroll_gris"
+                                   aria-label="descripcion de proyecto personal"
+                                   aria-describedby="titulo_proyecto_2">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        Inventore necessitatibus doloribus adipisci dolorum cum et
+                                        quisquam dicta veniam accusamus dignissimos. Placeat eligendi
+                                        nihil voluptates eos enim aperiam porro architecto et?
+                                </p>
+                                <a href="#" class="boton" target="_blank">Ver proyecto</a>
+                    </div>
+        </article>
+        <article class="tarjeta" aria-label="presentacion de proyecto personal"0>
+            <img class="tarjeta__imagen"
+                 src="./umab1.jpg"
+                 alt="imagen del proyecto"
+                 title="proyecto 3"/>
+                <div class="tarjeta__contenido">
+                    <h3 class="tarjeta__titulo" id="titulo_proyecto_3">Umabotines</h3>
+                        <span class="tarjeta__divisor"></span>
+                            <p class="tarjeta__parrafo scroll scroll_fino"
+                               aria-label="descripcion de proyecto personal"
+                               aria-describedby="titulo_proyecto_3">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                    Inventore necessitatibus doloribus adipisci dolorum cum et
+                                    quisquam dicta veniam accusamus dignissimos. Placeat eligendi
+                                    nihil voluptates eos enim aperiam porro architecto et?
+                            </p>
+                                <a href="#" class="boton boton_oscuro" target="_blank">Ver proyecto</a>
+                </div>
+        </article>
+        <article class="tarjeta" aria-label="presentacion de proyecto personal">
+            <img class="tarjeta__imagen"
+                 src="./air.jpg"
+                 alt="imagen del proyecto"
+                 title="proyecto 4"/>
+                    <div class="tarjeta__contenido">
+                        <h3 class="tarjeta__titulo" id="titulo_proyecto_4">NikeAir</h3>
+                            <span class="tarjeta__divisor"></span>
+                                <p class="tarjeta__parrafo scroll scroll_fino scroll_gris"
+                                   aria-label="descripcion de proyecto personal"
+                                   aria-describedby="titulo_proyecto_4">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        Inventore necessitatibus doloribus adipisci dolorum cum et
+                                        quisquam dicta veniam accusamus dignissimos. Placeat eligendi
+                                        nihil voluptates eos enim aperiam porro architecto et?
+                                </p>
+                                    <a href="#" class="boton" target="_blank">Ver proyecto</a>
+                    </div>
+        </article>
+        <article class="tarjeta" aria-label="presentacion de proyecto personal">
+            <img class="tarjeta__imagen"
+                 src="./botines.jpeg"
+                 alt="imagen del proyecto"
+                 title="proyecto 5"/>
+                    <div class="tarjeta__contenido">
+                        <h3 class="tarjeta__titulo" id="titulo_proyecto_5">Botines</h3>
+                            <span class="tarjeta__divisor"></span>
+                                <p class="tarjeta__parrafo scroll scroll_fino"
+                                   aria-label="descripcion de proyecto personal"
+                                   aria-describedby="titulo_proyecto_5">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        Inventore necessitatibus doloribus adipisci dolorum cum et
+                                        quisquam dicta veniam accusamus dignissimos. Placeat eligendi
+                                        nihil voluptates eos enim aperiam porro architecto et?
+                                </p>
+                                    <a href="#" class="boton boton_oscuro" target="_blank">Ver proyecto</a>
+                    </div>
+        </article>
+        <article class="tarjeta" aria-label="presentacion de proyecto personal">
+            <img class="tarjeta__imagen"
+                 src="./skyliner34.jpeg"
+                 alt="imagen del proyecto"
+                 title="proyecto 6"/>
+                    <div class="tarjeta__contenido">
+                        <h3 class="tarjeta__titulo" id="titulo_proyecto_6">SkylineR34</h3>
+                            <span class="tarjeta__divisor"></span>
+                                <p class="tarjeta__parrafo scroll scroll_fino scroll_gris"
+                                   aria-label="descripcion de proyecto personal"
+                                   aria-describedby="titulo_proyecto_6">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        Inventore necessitatibus doloribus adipisci dolorum cum et
+                                        quisquam dicta veniam accusamus dignissimos. Placeat eligendi
+                                        nihil voluptates eos enim aperiam porro architecto et?
+                                </p>
+                                    <a href="#" class="boton" target="_blank">Ver proyecto</a>
+                    </div>
+          </article>
+        </div>
+      </article>
+    </main>
+    <a href="https://api.whatsapp.com/send?phone=+5493644334972&text=Hola, mi nombre es Abel, en que te puedo ayudar?"
+       class="whatsapp-float" target="_blank">
+            <img src="asdd.svg"
+                 alt="WhatsApp"
+                 class="whatsapp-icon">
+        </a>
+    <div class="music">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+    <footer class="pie_de_pagina" role="contenido">
+        <div class="pie_de_pagina__columna">
+            <h4 class="pie_de_pagina__titulo_columna">Mis redes</h4>
+                <ul class="enlaces enlaces_redes">
+                    <li class="enlaces__item">
+                        <a class="enlaces__enlace enlaces__enlace_footer" href="https://github.com/" target="_blank">
+                            <img class="enlaces__icono"
+                                 src="./logogit.png"
+                                 alt="logo de github" title="GitHub"/>
+                        </a>
+                    </li>
+                    <li class="enlaces__item">
+                        <a class="enlaces__enlace enlaces__enlace_footer" href="https://www.instagram.com/umano.abel/" target="_blank">
+                            <img class="enlaces__icono" src="./insta.jpeg" alt="logo de instagram" title="Instagram"/>
+                        </a>
+                    </li>
+                    <li class="enlaces__item">
+                        <a class="enlaces__enlace enlaces__enlace_footer" href="https://x.com/uabelcain" target="_blank">
+                            <img class="enlaces__icono" src="./twt.png" alt="logo de X" title="Twitter"/>
+                        </a>
+                    </li>
+                </ul>
+        </div>
+                                        <!-- explicacion: la segunda columna sera para nuestros medios de contacto  -->
+        <div class="pie_de_pagina__columna">
+            <h4 class="pie_de_pagina__titulo_columna">Contactame</h4>
+                <ul class="enlaces enlaces_vertical">
+                    <li class="enlaces__item">
+                        <a class="enlaces__enlace enlaces__enlace_footer" href="mailto:@gmail.com" target="_blank">Enviar Correo</a>
+                    </li>
+                </ul>
+        </div>
+                                        <!-- explicacion: la ultima columna sera para los enlaces de navegacion -->
+        <div class="pie_de_pagina__columna" role="navigation">
+            <h4 class="pie_de_pagina__titulo_columna">Secciones</h4>
+                <ul class="enlaces enlaces_vertical">
+                    <li class="enlaces__item">
+                        <a class="enlaces__enlace enlaces__enlace_footer" href="#presentacion">Inicio</a>
+                    </li>
+                    <li class="enlaces__item">
+                        <a class="enlaces__enlace enlaces__enlace_footer" href="#sobre-mi">Sobre mi</a>
+                    </li>
+                    <li class="enlaces__item">
+                        <a class="enlaces__enlace enlaces__enlace_footer" href="#proyectos">Proyectos</a>
+                    </li>
+                </ul>
+        </div>
+                                        <!-- por ultimo los derechos de la pagina -->
+        <div class="pie_de_pagina__copyright">
+            <p>©️Copyright 2024</p>
+        </div>
+    </footer>
+</body>
+</html>
